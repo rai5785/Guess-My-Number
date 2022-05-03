@@ -1,0 +1,103 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Press Start ", cursive;
+}
+
+header .head {
+  position: relative;
+  height: 35vh;
+  background-color: #000;
+  border-bottom: 5px solid white;
+}
+
+.num {
+  color: white;
+  position: absolute;
+  left: 80%;
+  top: 5%;
+  font-size: 15px;
+}
+
+.bt {
+  border-style: none;
+  padding: 0.5rem 2rem;
+  margin: 0.5rem;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.bt:hover {
+  background-color: rgb(190, 186, 186);
+}
+
+.guess {
+  position: absolute;
+  top: 12%;
+  font-size: 50px;
+  left: 25%;
+  color: white;
+}
+
+.unknow {
+  text-align: center;
+  width: 100%;
+  font-size: 100px;
+  color: white;
+  background-color: black;
+}
+
+.unknow p {
+  background-color: white;
+  color: black;
+  padding: 0 1.5rem;
+  position: absolute;
+  top: 25%;
+  right: 45%;
+}
+
+main {
+  height: 64.2vh;
+  background-color: #000;
+  display: flex;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.space {
+  border: 3px solid white;
+  background-color: #000;
+  height: 12vh;
+  color: white;
+  font-size: 30px;
+  width: 60%;
+  margin: 85px 0 0 50px;
+  text-align: center;
+}
+
+.bts {
+  border-style: none;
+  padding: 0.5rem 2rem;
+  font-size: 30px;
+  width: 50%;
+  margin: 19px 0 0 70px;
+  cursor: pointer;
+}
+
+.bts:hover {
+  background-color: rgb(190, 186, 186);
+}
+
+.second {
+  color: white;
+  padding: 100px 0 0 100px;
+  font-size: 20px;
+}
+
+.mid {
+  padding: 75px 0 0 0;
+}
